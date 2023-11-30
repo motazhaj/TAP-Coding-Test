@@ -2,38 +2,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Motaz HM Portfolio</title>
   </head>
   <body>
     <header>
-      <nav>
-        <img src="images/logos/logo.png" alt="Logo" />
+      <nav id="navbar">
+        <img id="nav-logo" src="images/logos/logo.png" alt="Logo" />
         <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="">Experience</a></li>
           <li><a href="">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section>
+    <section id="about">
       <div>
-        <h1>Welcome to my portfolio</h1>
-        <h2>Hi, I am Motaz Haj Mohammad</h2>
+        <h1>Welcome to my Portfolio</h1>
+        <h2 id="intro-text">
+          Hi, I am Motaz, an <span class="text-highlight">Architect</span> and a
+          <span class="text-highlight">Novice Programmer</span>
+        </h2>
         <p>
           I am a seasoned architecture engineer and 3D generalist with a strong
           background in design and a deep passion for 3D art and interactive
           experiences,<br />
-          While I may not possess extensive documented experience in 3D art and
-          game development, I am determined to bridge this gap through my
-          commitment to excellence
+          While I may not possess extensive documented experience as a
+          programmer, I am determined to bridge this gap through my commitment
+          to excellence.
         </p>
+        <h2 id="links-h2">Check out my work</h2>
+        <div id="links-buttons">
+          <button class="def-button">
+            <a href="https://github.com/motazhaj">Github</a>
+          </button>
+          <button class="def-button">
+            <a href="https://www.linkedin.com/in/motazhm/">LinkedIn</a>
+          </button>
+          <button class="def-button">
+            <a href="https://www.behance.net/MotazHM">Behance</a>
+          </button>
+        </div>
       </div>
       <div>
-        <img src="images/Pic.jpg" alt="Personal Picture" />
+        <img id="avatar" src="images/Pic.jpg" alt="Personal Picture" />
       </div>
     </section>
-    <section>
+    <section id="skills">
       <h2>Programming Skills</h2>
       <ul>
         <li>C++</li>
