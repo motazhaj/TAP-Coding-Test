@@ -1,5 +1,7 @@
 # TAP assignment project
 
+### deployed site: https://motaz-portfolio.netlify.app
+
 ## Q1: HTML/CSS Question 
 ### Requirements:
 ### Design:
