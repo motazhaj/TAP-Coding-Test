@@ -28,12 +28,14 @@ a {
 }
 
 p {
-  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 svg {
   margin: auto 0.2rem;
   display: block;
+  max-width: 1.5rem;
+  min-width: 1.5rem;
 }
 
 #nav-logo {
@@ -87,11 +89,12 @@ section {
 h1 {
   margin: 1rem 0;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 #intro-text {
   margin: 1.5rem 0;
-  margin-right: 3rem;
+  margin-left: 3rem;
   font-size: 3rem;
   font-weight: 700;
 }
@@ -101,8 +104,15 @@ h1 {
   font-weight: 700;
 }
 
+#avatar-card {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #avatar {
-  width: 450px;
+  max-width: 350px;
   border-radius: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -193,9 +203,9 @@ h1 {
 
 .skill-list {
   display: block;
-  width: 500px;
+  width: 90%;
   margin: 5rem auto;
-  width: 900px;
+  margin-left: 10%;
   text-align: left;
 }
 
@@ -211,9 +221,10 @@ h1 {
 
 .experience-list {
   display: block;
-  width: 900px;
-  text-align: left;
+  width: 90%;
   margin: 5rem auto;
+  margin-left: 10%;
+  text-align: left;
 }
 
 .experience-list li {
@@ -252,3 +263,114 @@ footer {
   justify-content: space-evenly;
 }
 
+#contact-header{
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  #navbar {
+    width: 100%;
+  }
+
+  #navbar ul li a {
+    margin: 2rem;
+  }
+
+  #about {
+    width: 100%;
+    border-radius: 0px;
+    margin: 12rem auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  #about {
+    width: 100%;
+    border-radius: 0px;
+    flex-direction: column;
+    margin: 8rem auto;
+  }
+
+  #intro-text,
+  p {
+    margin: 1rem 0;
+  }
+
+  .icons-list {
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #navbar {
+    width: 100%;
+  }
+  #nav-logo{
+    height: 1.4rem;
+  }
+  #about {
+    width: 100%;
+    border-radius: 0px;
+    flex-direction: column;
+    margin: 5rem auto;
+    padding: 2rem;
+  }
+  #links-h2{
+    margin: .5rem;
+  }
+  #intro-text {
+    font-size: 2rem;
+  }
+  #avatar {
+    width: 70%;
+  }
+  #intro-text,
+  p {
+    margin: 1rem 0;
+  }
+
+  p{
+    font-size: 0.9rem;
+  }
+
+  #navbar ul li a {
+    display: none;
+  }
+  #links-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: fit-content;
+    margin: auto;
+  }
+  .icon {
+    height: 5rem;
+    display: block;
+    margin: auto;
+  }
+  .skill-list li h4,
+  .experience-list li h4 {
+    font-size: 1.1rem;
+    margin-left: .5rem;
+  }
+  svg {
+    max-width: 1.2rem;
+    max-height: 1.2rem;
+  }
+
+  #contact * {
+    font-size: 1.1rem;
+    color: white;
+    justify-content: space-evenly;
+  }
+
+  
+}
