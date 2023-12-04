@@ -1,4 +1,4 @@
-# TAP assignment project
+# Portfolio assignment project
 
 ### deployed site: https://motaz-portfolio.netlify.app
 
