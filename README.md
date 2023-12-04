@@ -1,6 +1,6 @@
 # Portfolio assignment project
 
-### deployed site: https://motaz-portfolio.netlify.app
+### deployed site: https://motazhaj.github.io/motazhm-portfolio/
 
 ## Q1: HTML/CSS Question 
 ### Requirements:
