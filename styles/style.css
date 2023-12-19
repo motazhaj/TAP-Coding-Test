@@ -51,70 +51,12 @@ svg {
   min-width: 1.5rem;
 }
 
-#nav-logo {
-  height: 2rem;
-  margin: 0 1rem;
-}
-
 header {
   position: fixed;
   width: 100%;
   top: 0;
   background-color: var(--t-secondary-backdrop-color);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#navbar {
-  width: 1200px;
-  height: 4rem;
-  margin: auto;
-  backdrop-filter: blur(10px);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-#side-navbar-toggle {
-  height: 2rem;
-  margin: 0 1rem;
-  display: none;
-}
-#side-navbar {
-  display: none;
-  position: fixed;
-  width: 60%;
-  height: 100%;
-  padding: 3.5rem;
-  top: 0;
-  right: 0;
-  background-color: var(--t-secondary-backdrop-color);
-  backdrop-filter: blur(10px);
-  text-align: center;
-}
-#side-navbar * {
-  list-style: none;
-  text-align: right;
-  color: white;
-  margin: 2rem 0;
-}
-
-#side-navbar:target {
-  display: block;
-}
-
-#close-side-navbar {
-  height: 20px;
-}
-
-#navbar ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
-#navbar ul li a {
-  margin: 1rem;
-  font-size: 1.2rem;
-  color: white;
 }
 
 section {
@@ -311,14 +253,6 @@ footer {
 }
 
 @media only screen and (max-width: 1450px) {
-  #navbar {
-    width: 100%;
-  }
-
-  #navbar ul li a {
-    margin: 2rem;
-  }
-
   #about {
     width: 100%;
     border-radius: 0px;
@@ -330,7 +264,6 @@ footer {
     display: block;
     margin-left: 10%;
   }
-
 }
 
 @media only screen and (max-width: 1000px) {
@@ -353,7 +286,7 @@ footer {
   }
 
   .icons-list li h3 {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .icon {
@@ -367,17 +300,6 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-  #side-navbar-toggle {
-    height: 2rem;
-    margin: 0 1rem;
-    display: block;
-  }
-  #navbar {
-    width: 100%;
-  }
-  #nav-logo {
-    height: 1.4rem;
-  }
   #about {
     width: 100%;
     border-radius: 0px;
@@ -406,10 +328,6 @@ footer {
     font-size: 0.8rem;
   }
 
-  #navbar ul li a {
-    display: none;
-  }
-
   .skill-list li h4,
   .experience-list li h4 {
     font-size: 1.1rem;
@@ -421,8 +339,8 @@ footer {
   }
 }
 @media only screen and (max-width: 600px) {
-  .def-button{
+  .def-button {
     margin: 0 0.4rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
