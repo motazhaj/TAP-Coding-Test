@@ -148,23 +148,23 @@ h1 {
 }
 
 #programming-title {
-  background-image: url(images/coding.jpg);
+  background-image: url(/images/coding.jpg);
 }
 
 #threed-title {
-  background-image: url(images/3dskills.jpg);
+  background-image: url(/images/3dskills.jpg);
 }
 
 #functional-title {
-  background-image: url(images/functional.jpg);
+  background-image: url(/images/functional.jpg);
 }
 
 #education-title {
-  background-image: url(images/education.jpg);
+  background-image: url(/images/education.jpg);
 }
 
 #experience-title {
-  background-image: url(images/experience.jpg);
+  background-image: url(/images/experience.jpg);
 }
 
 .icons-list {
